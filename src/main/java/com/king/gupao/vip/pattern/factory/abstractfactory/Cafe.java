@@ -2,7 +2,8 @@ package com.king.gupao.vip.pattern.factory.abstractfactory;
 
 /**
  * @author King Chen
- * @Date: 2019/3/7 21:42
+ * @Date: 2019/3/7 23:40
  */
-public class CoffeeAbstractFactory {
+public interface Cafe {
+    void chooseCafe();
 }
